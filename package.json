@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://rutk39.github.io/my-resume",
   "dependencies": {
+    "@babel/preset-react": "^7.26.3",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
@@ -38,5 +39,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1",
+    "webpack": "^5.0.0",
+    "babel-loader": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "style-loader": "^3.3.1",
+    "css-loader": "^6.5.1"
   }
 }
